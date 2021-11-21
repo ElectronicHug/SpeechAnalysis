@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="1620306470.3456_2cf3206ac67672fced2f73ecad8488a9 (2)_data" version="1.3.0" audacityversion="2.4.2" sel0="12.6356526178" sel1="23.0727500000" vpos="0" h="0.1207997382" zoom="41.3908181730" rate="8000.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags>
+		<tag name="TITLE" value="2021-05-06-16:07:50"/>
+	</tags>
+	<wavetrack name="1620306470.3456_2cf3206ac67672fced2f73ecad8488a9 (2)" isSelected="0" height="150" minimized="0" channel="2" linked="0" mute="0" solo="0" rate="8000" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="184582">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f623.au" len="184582" min="-0.844763" max="0.764066" rms="0.060877"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<labeltrack name="Трек меток" isSelected="0" height="73" minimized="0" numlabels="5">
+		<label t="0.0000000000" t1="1.1596774869" title="c_r_a"/>
+		<label t="1.1596774869" t1="3.7447918848" title="s_r_n"/>
+		<label t="3.7447918848" t1="11.4276552356" title="c_r_a"/>
+		<label t="11.4276552356" t1="12.6356526178" title="s_r_n"/>
+		<label t="12.6356526178" t1="23.0727500000" title="c_r_a"/>
+	</labeltrack>
+</project>

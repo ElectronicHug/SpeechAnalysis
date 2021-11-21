@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="1631191531.3575651_ac5a79bd453d69229aa272a208fbbc72_data" version="1.3.0" audacityversion="2.4.2" sel0="54.0526926539" sel1="65.9303750000" vpos="16" h="44.4770104396" zoom="27.0476812203" rate="8000.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags/>
+	<wavetrack name="1631191531.3575651_ac5a79bd453d69229aa272a208fbbc72" isSelected="1" height="150" minimized="0" channel="2" linked="0" mute="0" solo="0" rate="8000" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="527443">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1fcd8.au" len="169236" min="-0.717167" max="0.516657" rms="0.069861"/>
+				</waveblock>
+				<waveblock start="169236">
+					<simpleblockfile filename="eff1f9ed.au" len="196492" min="-0.822753" max="0.713643" rms="0.094146"/>
+				</waveblock>
+				<waveblock start="365728">
+					<simpleblockfile filename="eff1f0bf.au" len="161715" min="-0.993706" max="0.836642" rms="0.094243"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<labeltrack name="Трек меток" isSelected="1" height="104" minimized="0" numlabels="16">
+		<label t="0.0000000000" t1="4.2773184422" title="s_r_n"/>
+		<label t="4.2773184422" t1="11.3820168715" title="c_r_n"/>
+		<label t="11.3820168715" t1="12.3969737900" title="s_r_n"/>
+		<label t="12.3969737900" t1="13.2654902937" title="b"/>
+		<label t="13.2654902937" t1="22.3309345848" title="s_r_n"/>
+		<label t="22.3309345848" t1="23.5140304568" title="b"/>
+		<label t="23.5140304568" t1="25.1777590269" title="c_r_n"/>
+		<label t="25.1777590269" t1="29.4295098170" title="s_r_n"/>
+		<label t="29.4295098170" t1="30.1319729911" title="b"/>
+		<label t="30.1319729911" t1="31.4629558471" title="s_r_n"/>
+		<label t="32.0545037831" t1="35.2340739392" title="c_r_n"/>
+		<label t="35.2340739392" t1="36.3062545733" title="b"/>
+		<label t="36.3062545733" t1="50.9840377358" title="s_r_n"/>
+		<label t="50.9840377358" t1="53.0544555119" title="с_r_n"/>
+		<label t="53.0544555119" t1="54.0526926539" title="b"/>
+		<label t="54.0526926539" t1="65.9303750000" title="s_r_n"/>
+	</labeltrack>
+</project>

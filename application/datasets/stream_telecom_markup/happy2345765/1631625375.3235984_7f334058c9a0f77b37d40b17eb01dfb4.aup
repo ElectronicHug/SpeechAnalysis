@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="1631625375.3235984_7f334058c9a0f77b37d40b17eb01dfb4_data" version="1.3.0" audacityversion="2.4.2" sel0="61.8433976181" sel1="71.1918750000" vpos="0" h="25.8578665999" zoom="13.9222622489" rate="8000.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags/>
+	<wavetrack name="1631625375.3235984_7f334058c9a0f77b37d40b17eb01dfb4" isSelected="1" height="150" minimized="0" channel="2" linked="0" mute="0" solo="0" rate="8000" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="569535">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f8d5.au" len="170548" min="-1.006425" max="0.909278" rms="0.101564"/>
+				</waveblock>
+				<waveblock start="170548">
+					<simpleblockfile filename="eff1f0d4.au" len="184913" min="-0.798057" max="0.736775" rms="0.049977"/>
+				</waveblock>
+				<waveblock start="355461">
+					<simpleblockfile filename="eff1f493.au" len="214074" min="-0.925173" max="0.912894" rms="0.100079"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<labeltrack name="Трек меток" isSelected="1" height="73" minimized="0" numlabels="7">
+		<label t="0.0000000000" t1="1.8675125878" title="c_r_n"/>
+		<label t="1.8675125878" t1="5.1715733200" title="s_r_h"/>
+		<label t="5.1715733200" t1="11.2769029338" title="c_r_h"/>
+		<label t="11.2769029338" t1="43.6710635909" title="s_r_n"/>
+		<label t="43.6710635909" t1="46.0413680293" title="c_r_n"/>
+		<label t="46.0413680293" t1="58.6111642931" title="s_r_n"/>
+		<label t="61.8433976181" t1="71.1918750000" title="c_r_n"/>
+	</labeltrack>
+</project>
