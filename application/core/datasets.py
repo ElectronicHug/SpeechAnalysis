@@ -4,8 +4,12 @@ import numpy as np
 import librosa
 from torch import LongTensor, FloatTensor, HalfTensor, Tensor
 
+
+def worker_init_fn(worker_id):
+    np.random.seed(np.random.get_state()[1][0] + worker_id)
+    
 class BasicAudioDataset(Dataset):
-    def __init__(self, phrase_df=None, target=None, idx=None, audio_df=None):
+    def __init__(self, phrase_df=None, target=None, idx=None, audio_df=None, PERIOD=5):
         
         self.phrase_df = phrase_df
         
@@ -16,7 +20,7 @@ class BasicAudioDataset(Dataset):
         #self.index = np.array(idx)
         self.sample_rate = 8000
         self.audio_df = audio_df
-        self.PERIOD = 5
+        self.PERIOD = PERIOD
         
     def __len__(self):
         return phrase_df.shape[0]
@@ -85,5 +89,4 @@ class BasicAudioDataset(Dataset):
             slice_input_audio = input_audio[int(slice_ind*self.sample_rate * self.PERIOD):int((slice_ind+1)*self.sample_rate * self.PERIOD)]
             preprocessed_audio_slice = self.from_audio_decibel_abs_fourie_audio(slice_input_audio, self.sample_rate, use_random=False)
             prepared_audio_list.append(preprocessed_audio_slice)
-            
         return prepared_audio_list
